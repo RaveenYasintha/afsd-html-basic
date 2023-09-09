@@ -1,0 +1,74 @@
+.flex-container{
+    display: flex;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.item{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    width: 100px;
+}
+/* flex-direction  */
+
+.flex-direction{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: aqua;
+    padding: 5px;
+
+}
+
+/* flex-wrap  */
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    padding: 5px;
+} 
+
+/* flex-wrap-reverc */
+
+
+.flex-wrap-reverce{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: aqua;
+    padding: 5px;
+} 
+
+/* flex-center */
+
+.flex-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aqua;
+    padding: 5px;
+} 
+/* flex-space-around */
+
+.flex-space-around{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    background-color: aqua;
+    padding: 5px;
+} 
+
+/* flex-space-between */
+
+.flex-space-between{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    background-color: aqua;
+    padding: 5px;
+} 
+
+
+

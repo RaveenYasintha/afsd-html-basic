@@ -1,0 +1,14 @@
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    transition: width 2s, height 2s, transform 2s, background-color 2s;
+}
+
+.div:hover{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    transform: rotate(2880deg);
+}

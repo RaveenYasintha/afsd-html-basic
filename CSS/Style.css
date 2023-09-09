@@ -1,0 +1,63 @@
+/* External Css*/
+
+#ex-title{
+    background-color: rgb(2, 58, 11);
+            color: white;
+            border-radius: 7px;
+            padding: 10px;
+            border: none;
+}
+
+.ex-btn{
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+}
+/* Type selector */
+h1{
+    color: brown;
+}
+h2{color:yellowgreen;}
+
+/*universl selector*/
+
+*{background-color: rgb(235, 235, 95);
+margin: 1;}
+
+/*class selector*/
+
+.name{
+    color: blue;
+    background-color: chocolate;
+}
+
+/*id selector*/
+
+#full-name{background-color: black;
+            color: aliceblue;
+}
+
+/*child selector*/
+
+body > p{
+
+    color: blue;
+    background-color: brown;
+}
+
+div > p{
+    color: aqua;
+    background-color: blueviolet;
+}
+
+/*Box Model*/
+
+.box-model{
+    color: aliceblue;
+    padding: 60px;
+    border: 05px solid black;
+    margin: 20px;
+
+}
+
